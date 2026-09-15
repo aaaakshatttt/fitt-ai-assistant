@@ -680,7 +680,7 @@ export async function POST(req: Request) {
     );
 
     const requestBody = {
-      model: "nvidia/nemotron-3.5-lightning-30b-a3b",
+      model: "meta/llama-3.2-11b-vision-instruct",
 
       messages: [
         {
